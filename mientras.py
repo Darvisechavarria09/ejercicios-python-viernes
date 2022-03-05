@@ -15,7 +15,7 @@ while(opcion != 0):
     opcion =int(input("Digite una opcion: ")) ;
     if(opcion==1):
         numero=int(input("/RAIZ CUADRADA/ digite el numero a calcular: "))
-        raiz=float(math.sqrt(numero))
+        raiz=math.sqrt(numero)
         print(f"la raiz de {numero} es {raiz}")
     elif(opcion==2):
         numero=int(input("/POTENCIA/ digite el numero a calcular: "))
