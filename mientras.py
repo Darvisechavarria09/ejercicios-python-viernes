@@ -12,7 +12,7 @@ while(opcion != 0):
     print("1. digita 1 para calcular cuadrada de un #")
     print("2. digite 2 para calcular la potencia de un #")
     print("****")
-    opcion =int(input("Digite una opcion: ")) ;
+    opcion =int(input("Digite una opcion: "));
     if(opcion==1):
         numero=int(input("/RAIZ CUADRADA/ digite el numero a calcular: "))
         raiz=math.sqrt(numero)
